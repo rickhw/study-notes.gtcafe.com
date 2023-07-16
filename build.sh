@@ -5,3 +5,5 @@ source mkdocs_config.sh
 docker run --rm -v $PWD:/docs $MKDOCS_IMAGE build
 
 cp -R site/* docs
+
+rm -rf site
