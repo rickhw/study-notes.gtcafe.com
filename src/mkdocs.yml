@@ -21,7 +21,7 @@ nav:
 theme:
   name: material
   palette:
-    primary: "amber"
+    primary: "custom"
     accent: "indigo"
   features:
     - content.tabs.link
