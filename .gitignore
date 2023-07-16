@@ -26,9 +26,6 @@ kubernetes.github.io.iml
 
 nohup.out
 
-# Hugo output
-public/
-resources/
 
 # User-specific editorconfig files
 .editorconfig
