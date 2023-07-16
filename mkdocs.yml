@@ -1,0 +1,60 @@
+# nice yaml formatter: https://mtp.tools/formatters/yaml-formatter
+
+site_name: Study Notes @ GTCafe
+site_url: "http://study-notes.gtcafe.com"
+repo_url: "https://github.com/rickhw/study-notes.gtcafe.com"
+edit_uri: "edit/master/"
+docs_dir: "docs"
+
+# ----------------------------------------------------------------
+
+nav:
+  - "Overview": index.md
+  - "API": 
+    - "OpenAPI Generator":
+      - "* Java SpringBoot": "api/openapi-generator_java-springboot.md"
+      - "* Python FastAPI": "api/openapi-generator_python-fastapi.md"
+  - "排版": principle.md
+
+# ----------------------------------------------------------------
+
+theme:
+  name: material
+  palette:
+    primary: "light blue"
+    accent: "indigo"
+  features:
+    - content.tabs.link
+
+    # enable navigation, https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant  
+    - navigation.instant.prefetch
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+
+markdown_extensions:
+  ## enable content tabs: https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+  - toc:
+      toc_depth: 3
+  - admonition
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+     alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+# ----------------------------------------------------------------
+
+extra:
+  version:
+    provider: mike
