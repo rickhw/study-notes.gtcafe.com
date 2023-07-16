@@ -8,3 +8,5 @@ rm -rf docs
 docker run --rm -v $PWD/src:/docs $MKDOCS_IMAGE build
 
 mv src/site docs
+
+cp src/CNAME docs
