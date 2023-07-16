@@ -2,8 +2,9 @@
 
 source mkdocs_config.sh
 
-docker run --rm -v $PWD:/docs $MKDOCS_IMAGE build
+#mv docs docs.bak_${TS}
+rm -rf docs
 
-cp -R site/* docs
+docker run --rm -v $PWD/src:/docs $MKDOCS_IMAGE build
 
-rm -rf site
+mv src/site docs

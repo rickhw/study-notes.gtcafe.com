@@ -1,9 +1,8 @@
 #!/bin/sh
 
-TS=$(date +%Y%m%d-%H%M)
+source mkdocs_config.sh
 
 DESC=$1
-
 
 # git pull origin master
 git add .

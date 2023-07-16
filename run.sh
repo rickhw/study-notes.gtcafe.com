@@ -12,6 +12,6 @@ docker pull $MKDOCS_IMAGE
 # }) &
 
 docker run --rm \
-  -v $PWD:/docs-src \
-  -p $PORT:$PORT \
+  -v $PWD/src:/docs \
+  -p $MKDOCS_PORT:$MKDOCS_PORT \
   $MKDOCS_IMAGE

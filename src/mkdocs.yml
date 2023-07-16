@@ -3,8 +3,8 @@
 site_name: Study Notes @ GTCafe
 site_url: "https://study-notes.gtcafe.com"
 repo_url: "https://github.com/rickhw/study-notes.gtcafe.com"
-edit_uri: "edit/main/"
-docs_dir: "docs-src"
+edit_uri: "edit/main/src"
+docs_dir: "docs"
 
 # ----------------------------------------------------------------
 
