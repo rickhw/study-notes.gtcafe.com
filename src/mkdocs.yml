@@ -3,7 +3,7 @@
 site_name: Study Notes @ GTCafe
 site_url: "https://study-notes.gtcafe.com"
 repo_url: "https://github.com/rickhw/study-notes.gtcafe.com"
-edit_uri: "edit/main/src"
+edit_uri: "edit/main/src/"
 docs_dir: "docs"
 
 # ----------------------------------------------------------------
@@ -21,7 +21,7 @@ nav:
 theme:
   name: material
   palette:
-    primary: "light blue"
+    primary: "amber"
     accent: "indigo"
   features:
     - content.tabs.link
@@ -58,3 +58,7 @@ markdown_extensions:
 extra:
   version:
     provider: mike
+
+
+extra_css:
+  - stylesheets/extra.css
