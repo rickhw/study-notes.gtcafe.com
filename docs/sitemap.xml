@@ -2,22 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://study-notes.gtcafe.com/</loc>
-         <lastmod>2023-07-16</lastmod>
+         <lastmod>2023-08-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://study-notes.gtcafe.com/principle/</loc>
-         <lastmod>2023-07-16</lastmod>
+         <lastmod>2023-08-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://study-notes.gtcafe.com/api/openapi-generator_java-springboot/</loc>
-         <lastmod>2023-07-16</lastmod>
+         <loc>https://study-notes.gtcafe.com/api/arch/api-gateway/</loc>
+         <lastmod>2023-08-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://study-notes.gtcafe.com/api/openapi-generator_python-fastapi/</loc>
-         <lastmod>2023-07-16</lastmod>
+         <loc>https://study-notes.gtcafe.com/api/arch/overview/</loc>
+         <lastmod>2023-08-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://study-notes.gtcafe.com/api/development/codegen/</loc>
+         <lastmod>2023-08-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://study-notes.gtcafe.com/api/development/overview/</loc>
+         <lastmod>2023-08-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://study-notes.gtcafe.com/api/mechanism/async-comm/</loc>
+         <lastmod>2023-08-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://study-notes.gtcafe.com/api/mechanism/overview/</loc>
+         <lastmod>2023-08-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
