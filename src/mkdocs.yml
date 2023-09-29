@@ -9,17 +9,21 @@ docs_dir: "docs"
 # ----------------------------------------------------------------
 
 nav:
-  - "Overview": index.md
-  - "Mechanism": 
-    - "Overview": "api/mechanism/overview.md"
-    - "Async Comm": "api/mechanism/async-comm.md"
-  - "Development":
-    - "Overview": "api/development/overview.md"
-    - "Code Generator": "api/development/codegen.md"
-  - "Architecture":
-    - "Overview": "api/arch/overview.md"
-    - "API Gateway": "api/arch/api-gateway.md"
-  - "排版": principle.md
+  - "Home":
+    - "Overview": index.md
+    - "排版": principle.md
+  - "Springboot":
+    - "Validation": "springboot/validation.md"
+  # - "Mechanism":
+  #   - "Overview": "api/mechanism/overview.md"
+  #   - "Async Comm": "api/mechanism/async-comm.md"
+  # - "Development":
+  #   - "Overview": "api/development/overview.md"
+  #   - "Code Generator": "api/development/codegen.md"
+  # - "Architecture":
+  #   - "Overview": "api/arch/overview.md"
+  #   - "API Gateway": "api/arch/api-gateway.md"
+
 
 # ----------------------------------------------------------------
 
@@ -34,7 +38,7 @@ theme:
     # enable navigation, https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.instant  
+    - navigation.instant
     - navigation.instant.prefetch
     - navigation.sections
     - navigation.expand
@@ -44,7 +48,7 @@ markdown_extensions:
   ## enable content tabs: https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
 
   - toc:
       toc_depth: 3
