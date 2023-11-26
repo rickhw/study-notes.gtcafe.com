@@ -9,3 +9,12 @@
 ## Request Validation
 
 
+```http
+POST {{API_PATH}}/
+Content-Type: application/json
+
+{
+    "userId": "12345",
+    "username": "rick123"
+}
+```
