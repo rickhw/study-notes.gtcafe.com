@@ -12,7 +12,7 @@ nav:
   - "Home":
     - "Overview": index.md
     - "ChangeLog": changelog.md
-    - "排版": principle.md
+    - "排版": principle.md.
   # - "Springboot":
   #   - "Validation": "springboot/validation.md"
   # - "Mechanism":
