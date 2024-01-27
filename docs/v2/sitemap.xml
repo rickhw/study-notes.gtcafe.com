@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://study-notes.gtcafe.com/v2/changelog/</loc>
+         <lastmod>2024-01-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://study-notes.gtcafe.com/v2/principle/</loc>
          <lastmod>2024-01-27</lastmod>
          <changefreq>daily</changefreq>

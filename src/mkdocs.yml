@@ -11,9 +11,10 @@ docs_dir: "docs"
 nav:
   - "Home":
     - "Overview": index.md
+    - "ChangeLog": changelog.md
     - "排版": principle.md
-  - "Springboot":
-    - "Validation": "springboot/validation.md"
+  # - "Springboot":
+  #   - "Validation": "springboot/validation.md"
   # - "Mechanism":
   #   - "Overview": "api/mechanism/overview.md"
   #   - "Async Comm": "api/mechanism/async-comm.md"
