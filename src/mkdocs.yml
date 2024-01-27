@@ -1,7 +1,7 @@
 # nice yaml formatter: https://mtp.tools/formatters/yaml-formatter
 
 site_name: Study Notes @ GTCafe
-site_url: "https://study-notes.gtcafe.com"
+site_url: "https://study-notes.gtcafe.com/v1"
 repo_url: "https://github.com/rickhw/study-notes.gtcafe.com"
 edit_uri: "edit/main/src/"
 docs_dir: "docs"

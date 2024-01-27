@@ -7,10 +7,10 @@ rm -rf docs/${VERSION}
 
 mkdir -p docs/${VERSION}
 
-docker run --rm -v $PWD/src:/docs/${VERSION} $MKDOCS_IMAGE build
+docker run --rm -v $PWD/src:/docs $MKDOCS_IMAGE build
 
-mv src/site docs/${VERSION}
+mv src/site/* docs/${VERSION}
 
 
-
+cp src/index.html docs/
 cp src/CNAME docs/
