@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://study-notes.gtcafe.com/v2/</loc>
+         <loc>https://study-notes.gtcafe.com/v1/</loc>
          <lastmod>2024-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://study-notes.gtcafe.com/v2/changelog/</loc>
+         <loc>https://study-notes.gtcafe.com/v1/changelog/</loc>
          <lastmod>2024-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://study-notes.gtcafe.com/v2/principle/</loc>
+         <loc>https://study-notes.gtcafe.com/v1/principle/</loc>
          <lastmod>2024-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
