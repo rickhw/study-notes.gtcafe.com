@@ -3,10 +3,14 @@
 source mkdocs_config.sh
 
 #mv docs docs.bak_${TS}
-rm -rf docs
+rm -rf docs/${VERSION}
 
-docker run --rm -v $PWD/src:/docs $MKDOCS_IMAGE build
+mkdir -p docs/${VERSION}
 
-mv src/site docs
+docker run --rm -v $PWD/src:/docs/${VERSION} $MKDOCS_IMAGE build
 
-cp src/CNAME docs
+mv src/site docs/${VERSION}
+
+
+
+cp src/CNAME docs/
