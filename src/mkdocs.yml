@@ -9,7 +9,8 @@ docs_dir: "docs"
 # ----------------------------------------------------------------
 
 nav:
-  - "Home":
+  - "Home": "https://study-notes.gtcafe.com"
+  - "Index":
     - "Overview": index.md
     - "ChangeLog": changelog.md
     - "排版": principle.md
