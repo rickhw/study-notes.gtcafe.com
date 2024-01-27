@@ -2,7 +2,7 @@
 
 site_name: Study Notes @ GTCafe (V1)
 site_url: "https://study-notes.gtcafe.com/v1"
-repo_url: "https://github.com/rickhw/study-notes.gtcafe.com"
+repo_url: "https://github.com/rickhw/study-notes.gtcafe.com/tree/v1"
 edit_uri: "edit/v1/src/"
 docs_dir: "docs"
 
